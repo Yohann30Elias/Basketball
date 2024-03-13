@@ -1,0 +1,42 @@
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.team1 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.team2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.log {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.reset {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.image {
+    grid-column: 2;
+    grid-row: 1;
+    width:fit-content;
+    height:fit-content;
+}
+
+.progress-bar {
+    height: 10px; 
+    background-color: blue;
+}
+
+.log-list {
+    list-style-type: none;
+}
+    
